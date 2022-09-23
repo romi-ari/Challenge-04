@@ -1,0 +1,622 @@
+* {
+  font-family: "Helvetica";
+  font-style: normal;
+}
+
+.logo {
+  width: 100px;
+  height: 34px;
+  background: #0d28a6;
+}
+
+.navbar-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #f1f3ff;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 50%;
+}
+
+header {
+  background: #f1f3ff;
+  height: 500px;
+}
+
+.btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-sec {
+  margin-top: 88px;
+}
+
+.car {
+  margin-top: 94px;
+}
+
+.desc-car {
+  margin-top: 177px;
+}
+
+.hero-sec h1 {
+  width: 568px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.hero-sec p {
+  width: 468px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.group-47 {
+  margin-top: 104px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.desc {
+  margin-top: 140px;
+  padding-left: 50px;
+}
+
+.desc p {
+  margin-bottom: 0px;
+  height: unset;
+  margin-bottom: 10px;
+  margin-right: 207px;
+}
+
+.desc img {
+  margin-right: 18px;
+}
+
+.desc h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.why-us {
+  padding: 0;
+}
+
+.why-us h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.why-us p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.card-body h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-why,
+.card-body-isi {
+  width: 268px;
+  height: 196px;
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.w-pd {
+  padding: 0;
+}
+
+.gp img {
+  margin-bottom: 16px;
+}
+
+.container-n .nav {
+  margin-top: 25px;
+  margin-left: 136px;
+}
+
+.bg-color {
+  width: 1440px;
+  height: 500px;
+}
+
+.btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our-section h1 {
+  width: 568px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.our-section p {
+  margin-top: 24px;
+  margin-bottom: 18px;
+  width: 468px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/*hero section*/
+
+.group-47 {
+  margin-top: 104px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.desc {
+  margin-top: 140px;
+  padding-left: 50px;
+}
+
+.desc p {
+  margin-bottom: 0px;
+  height: unset;
+  margin-bottom: 10px;
+  margin-right: 207px;
+}
+
+.desc img {
+  margin-right: 18px;
+}
+
+.desc h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.why-us {
+  margin-top: 100px;
+}
+
+/*carousel*/
+
+.py-5 {
+  margin-bottom: 108px;
+}
+
+.py-5 p {
+  margin-bottom: 16px;
+}
+
+.bg-aliceblue {
+  background-color: #f1f3ff;
+}
+
+.bg-button {
+  background-color: #5cb85f !important;
+}
+
+.bg-primary-darkblue {
+  background-color: #0d28a6;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial-rating {
+  max-height: 16px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  line-height: 0px;
+}
+
+.testimonial-media {
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 50%;
+}
+
+.testimonial-media:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.footer-social {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel {
+  max-width: 60%;
+}
+
+.alert-red {
+  background-color: #fa2c5a;
+}
+
+.alert-yellow {
+  background-color: #f9cc00;
+}
+
+.alert-green {
+  background-color: #73ca5c;
+}
+
+/* cta-banner */
+
+.cta-banner {
+  background: #0d28a6;
+  width: 100%;
+  height: 326px;
+  margin: 0 auto;
+  border-radius: 13px;
+  text-align: center;
+}
+
+.cta-banner h1 {
+  margin: 0 auto;
+  padding-top: 64px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.cta-banner p {
+  width: 468px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  padding: 16px 0 52px;
+  color: #ffffff;
+}
+
+.cta-banner but {
+  margin-top: 52px;
+  margin-bottom: 64px;
+}
+
+/* faq */
+
+.faq {
+  margin-top: 100px;
+}
+
+.faq h1 {
+  font-weight: bold;
+}
+
+.pd-16 {
+  margin-bottom: 16px;
+  border: none;
+}
+
+.accordion-button {
+  font-size: 14px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+}
+
+.accordion-body {
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+}
+
+.faq h1 {
+  margin-top: 0;
+}
+
+/* footer */
+
+footer {
+  margin: 150px 0 100px;
+}
+
+.alamat p {
+  margin: 0;
+}
+
+.a-center {
+  margin: 16px 0 16px 0 !important;
+}
+
+.alamat .connect .copyright {
+  width: 268px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.connect p {
+  height: 20px;
+}
+
+.copyright p {
+  height: 20px;
+}
+
+.nav-footer {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-container li {
+  padding-bottom: 16px;
+}
+
+.footer-container img {
+  margin-right: 16px;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 768px) {
+  .car img {
+    width: 100%;
+    right: 0;
+    position: absolute;
+  }
+
+  .desc-car h1,
+  .desc-car p {
+    width: 100%;
+  }
+
+  .desc-car {
+    margin-top: 20px;
+  }
+
+  .desc-car button {
+    margin-top: 20px;
+  }
+
+  header {
+    background: #f1f3ff;
+    height: 620px !important;
+  }
+
+  /*our-section*/
+
+  .desc {
+    margin-top: 60px;
+  }
+
+  .group-47 {
+    margin-top: 60px;
+  }
+
+  .group-47 img {
+    width: 90%;
+  }
+
+  /*why-us*/
+
+  .why-us {
+    margin-top: 60px;
+  }
+
+  .desc h1,
+  .desc p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .desc {
+    padding: 0 30px 0 30px;
+  }
+
+  .w-center {
+    text-align: center;
+  }
+
+  .card-body {
+    width: 105%;
+  }
+
+  .card {
+    margin: auto;
+    width: 85%;
+  }
+
+  /*testimonial*/
+
+  .carousel {
+    max-width: 100%;
+  }
+
+  .rating {
+    text-align: center;
+  }
+
+  .rating p {
+    text-align: left;
+  }
+
+  .rating img {
+    margin: 24px 0 24px 0;
+  }
+
+  .testi {
+    padding: 0 !important;
+    margin: 60px 16px 60px 16px !important;
+  }
+
+  .c-testi {
+    padding: 0 !important;
+  }
+
+  .h2 {
+    font-weight: bold;
+  }
+
+  /*cta-banner*/
+
+  .cta-banner {
+    margin: 0 16px 0 16px;
+    width: 90%;
+    height: 400px;
+    padding: 0 54px 0 54px;
+  }
+
+  .cta-banner p {
+    width: 100%;
+    padding: 0;
+    margin: 16px 0 32px 0;
+  }
+
+  .faq {
+    margin-top: 60px;
+  }
+
+  .f-center {
+    margin-bottom: 24px;
+    align-items: center;
+  }
+
+  .f-center h1 {
+    margin-bottom: 16px;
+  }
+
+  .f-center p {
+    margin-bottom: 0;
+  }
+
+  /*footer*/
+
+  footer {
+    margin-top: 60px;
+  }
+  .d-flex {
+    flex-direction: column !important;
+  }
+
+  .nav-footer {
+    margin-top: 32px;
+  }
+
+  .connect {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    height: 910px;
+  }
+
+  /*hero-sec*/
+
+  .car img {
+    right: 0;
+    position: absolute;
+  }
+
+  /*our-section*/
+
+  .group-47 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .desc {
+    margin: 0 16px 0 16px;
+    padding: 0;
+  }
+
+  .desc p {
+    width: 88%;
+    margin-right: 0;
+  }
+
+  .desc h1 {
+    width: 88%;
+  }
+
+  .desc br {
+    display: none;
+  }
+
+  /*why-us*/
+
+  .w-pd {
+    padding: 0px;
+    margin-bottom: 24px;
+  }
+
+  .w-pd img {
+    margin-bottom: 16px;
+  }
+
+  /*Testimonial*/
+
+  .carousel {
+    max-width: 100%;
+  }
+
+  .rating {
+    text-align: center;
+  }
+
+  .rating img {
+    margin: 16px 0 16px 0;
+  }
+
+  .rating p {
+    text-align: left;
+  }
+
+  .testi {
+    padding: 0 !important;
+    margin: 60px 16px 60px 16px !important;
+  }
+
+  .c-testi {
+    padding: 0 !important;
+  }
+}

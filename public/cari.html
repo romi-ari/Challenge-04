@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/cari.css" />
+    <title>Challenge-04</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar-container fixed-top">
+        <nav class="navbar navbar-expand-lg ms-auto navbar-light">
+          <div class="container-md">
+            <div class="logo"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <div class="logo offcanvas-title" id="offcanvasNavbarLabel"></div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="nav nav-pills ms-auto list-unstyled navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Our Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Why Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn">Register</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container hero-sec">
+        <div class="row">
+          <div class="col-lg desc-car">
+            <h1>Sewa & Rental Mobil Terbaik di Kawasan Bekasi</h1>
+            <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu <br />untuk sewa mobil selama 24 jam.</p>
+            <button type="button" class="btn">Mulai Sewa Mobil</button>
+          </div>
+          <div class="col-lg car">
+            <img src="./images/Mercedes Car EQC 300kW Edition - 900x598 1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container shadow p-3 mb-5 bg-white rounded w-75">
+        <form>
+          <div class="row">
+            <div class="col-lg">
+              <p>Tipe Driver</p>
+              <select id="sopir" class="form-select" aria-label="Default select example">
+                <option hidden>Pilih Tipe Driver</option>
+                <option value="1">Dengan Sopir</option>
+                <option value="2">Tanpa Sopir(Lepas Kunci)</option>
+              </select>
+            </div>
+            <div class="col-lg">
+              <p>Tanggal</p>
+              <input id="tgl" type="date" class="form-control">
+            </div>
+            <div class="col-lg">
+              <p>Waktu Jemput/Ambil</p>
+              <input id="wkt" type="time" class="form-control">
+            </div>
+            <div class="col-lg">
+              <p>Jumlah Penumpang (optional)</p>
+              <input id ="jmlPenumpang" type="text" class="form-control" placeholder="Jumlah Penumpang" />
+              </select>
+            </div>
+            <div class="col-lg">
+              <button id="load-btn" type="button" class="btn">Cari Mobil</button>
+              <button id="clear-btn" type="button" class="btn">Clear Mobil</button>
+            </div>
+          </div>
+        </form>
+                 
+      </div>
+      <div class = "row gap-4" id="cars-container"></div>
+          <!-- Example Javascript -->
+          <script type="text/javascript" src="./scripts/binar.js"></script>
+          <script type="text/javascript" src="./scripts/app.example.js"></script>
+          <script type="text/javascript" src="./scripts/car.example.js"></script>
+          <script type="text/javascript" src="./scripts/main.example.js"></script>
+    </main>
+    <footer>
+      <div class="container d-flex flex-row flex-wrap justify-content-between footer-container" id="footer">
+        <div class="alamat">
+          <p>Jalan Suroyo No. 161 Mayangan Kota <br />Probolonggo 672000</p>
+          <p class="a-center">binarcarrental@gmail.com</p>
+          <p>081-233-334-808</p>
+        </div>
+        <div class="nav-footer">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#our-services" class="text-decoration-none text-reset">Our Services</a>
+            </li>
+            <li>
+              <a href="#why-us" class="text-decoration-none text-reset">Why Us</a>
+            </li>
+            <li>
+              <a href="#testimonial" class="text-decoration-none text-reset">Testimonial</a>
+            </li>
+            <li>
+              <a href="#faq" class="text-decoration-none text-reset">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="connect">
+          <p>Connect with us</p>
+          <img src="./images/icon_facebook.png" alt="facebook" />
+          <img src="./images/icon_instagram.png" alt="instagram" />
+          <img src="./images/icon_twitter.png" alt="twitter" />
+          <img src="./images/icon_mail.png" alt="mail" />
+          <img src="./images/icon_twitch.png" alt="twitch" />
+        </div>
+        <div class="copyright">
+          <p>Copyright Binar 2022</p>
+          <div class="logo"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
